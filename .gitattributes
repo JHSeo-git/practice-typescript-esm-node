@@ -1,0 +1,10 @@
+/.yarn/releases/**        binary linguist-vendored
+/.yarn/plugins/**         binary linguist-vendored
+/.yarn/cache/**           binary linguist-vendored
+/.yarn/sdks/**            binary linguist-vendored
+/.yarn/pnpify/**          binary linguist-vendored
+
+/.pnp.cjs                 binary linguist-generated
+/.pnp.loader.mjs          binary linguist-generated
+
+/.vscode/*.json           linguist-language=JSON5
