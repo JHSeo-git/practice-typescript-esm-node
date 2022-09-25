@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "start": "tsc && node ./dist/index.js"
+    "build": "tsc",
+    "start": "yarn build && node ./dist/index.js"
   },
   "dependencies": {
     "@seo-practice/practice-library": "*"
