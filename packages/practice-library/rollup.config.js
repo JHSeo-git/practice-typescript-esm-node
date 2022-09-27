@@ -4,7 +4,7 @@ const packageJson = require('./package.json');
 
 const bundle = (config) => ({
   ...config,
-  input: 'src/index.ts',
+  input: packageJson.source,
   external: (id) => !/^[./]/.test(id),
 });
 
